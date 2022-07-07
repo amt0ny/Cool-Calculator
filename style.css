@@ -1,0 +1,102 @@
+#calculator{
+    height: 500px;
+    width: 300px;
+    box-shadow: 4px 4px 30px rgb(65, 64, 64);
+    border-radius: 12px;
+    background-color: rgb(49, 47, 47);
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-buttons{
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.operators-btn{
+
+    background-color: rgb(245, 136, 20);
+    color: black;
+    width: 60px;
+    border-radius: 5px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 5px 0;
+
+}
+.numbers-btn{
+    background-color: rgb(230, 217, 217);
+    color: black;
+    width: 60px;
+    border-radius: 5px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
+.equal-btn{
+    background-color: green;
+    color: black;
+    width: 60px;
+    border-radius: 5px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 5px 0;
+
+}
+.clear-btn{
+    background-color: red;
+    color: black;
+    width: 60px;
+    border-radius: 5px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
+.display{
+    border-radius: 12px;
+    color: azure;
+    width: 296px    ;
+    border: none;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 40px;
+    pointer-events: none                                   ;
+
+}
+
+.delt-btn{
+    background-color: rgb(179, 96, 96);
+    color: black;
+    width: 60px;
+    border-radius: 5px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
